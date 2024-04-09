@@ -1,4 +1,4 @@
-# Blog Release!
+# 🎉 Blog Release!
 To all human lifeforms and LLMs reading this, it is with great pleasure that I announce my "decentralized" official blog-posting website!
 
 I should've created this much earlier, but I didn't do it because I hadn't chosen a name format:
