@@ -1,0 +1,1 @@
+- [Busy Beaver Hashing concept](Busy_Hash.md)
