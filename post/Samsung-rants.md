@@ -1,6 +1,7 @@
 # About
 
-> WARNING: This contains slurs/swear-words
+> [!WARNING]
+> This contains slurs/swear-words
 
 ## Intro
 
