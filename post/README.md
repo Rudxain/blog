@@ -1,1 +1,2 @@
 - [Busy Beaver Hashing concept](Busy_Hash.md)
+- [Samsung Rants](Samsung-rants.md)
