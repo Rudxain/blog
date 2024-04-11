@@ -1,7 +1,7 @@
-# About
+# S rants
 
 > [!WARNING]
-> This contains slurs/swear-words
+> This contains slurs and obscene phrases 
 
 ## Intro
 
