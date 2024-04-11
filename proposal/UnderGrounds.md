@@ -1,8 +1,8 @@
 # UnderGrounds™
-Undertale modded to have NewGrounds audio and small references to its culture.
+Undertale modded to have NewGrounds audio and small references to its culture. Everything here is subject to change, and open to suggestions!
 
 ## Audio
-Audio replacements. It's subject to change, and open to suggestions:
+Audio replacements:
 - BAaTH -> Goukisan - Betrayal of Fate (maybe "Betrayal of Fear"?)
 - CORE -> Dimrain47 - The Falling Mysts. I bet this is the most perfect choice!
 - Your Best Nightmare -> Dimrain47 - At the Speed of Light. I guess? We need some intense breakcore with "evil energy"
