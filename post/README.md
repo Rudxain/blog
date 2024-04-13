@@ -1,3 +1,3 @@
 - [Samsung Rants](Samsung-rants.md) ⚠️WARNING: slurs & obscene phrases
 - [Busy Beaver Hashing concept](Busy_Hash.md)
-- [Pretending Collatz is false](pretend-Collatz-false.md)
+- [Me & Collatz](Collatz.md)
