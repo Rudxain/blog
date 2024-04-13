@@ -45,4 +45,4 @@ Perhaps it could find practical use with respect to primes?
 ## See also
 - [Numberphile](https://youtu.be/5mFpVDpKX70)
 - [Veritasium](https://youtu.be/094y1Z2wpJg)
-- [underrated video](https://youtu.be/i4OTNm7bRP8)
+- [@makessenseright](https://youtu.be/i4OTNm7bRP8) (underrated)
