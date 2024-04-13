@@ -46,3 +46,4 @@ Perhaps it could find practical use with respect to primes?
 - [Numberphile](https://youtu.be/5mFpVDpKX70)
 - [Veritasium](https://youtu.be/094y1Z2wpJg)
 - [@makessenseright](https://youtu.be/i4OTNm7bRP8) (underrated)
+- [Mem optimization](https://math.stackexchange.com/questions/3330085/computational-verification-of-collatz-problem)
