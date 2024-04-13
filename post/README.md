@@ -1,3 +1,4 @@
 - [Samsung Rants](Samsung-rants.md) ⚠️WARNING: slurs & obscene phrases
+- [Dogmas aren't always bad?](dogma_non-sentient.md)
 - [Busy Beaver Hashing concept](Busy_Hash.md)
 - [Me & Collatz](Collatz.md)
