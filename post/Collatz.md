@@ -1,10 +1,13 @@
 # My experience and questions about [CC](https://en.wikipedia.org/wiki/Collatz_conjecture)
 This page is about all of the things I learned about the CC, and some unanswered questions I had along the way
 
-## Some algebra
+## Relation with Mersenne
 If `n` is a Natural that when tripled and incremented becomes a power of 2 then it's of the form `3n + 1 = 2^m`, thus equivalent to `n = Mersenne(m) / 3`. Therefore, `m = 2k`, because `bitlen(3) = 2`, where `bitlen(x) = ilb(x) + 1`, so `n = (2^(2k) - 1) / 3`. This means that `3n+1` is a **perfect square power of 2**, because it has an even number of binary trailing zeros.
 
-An optimization (for finding counter-examples to CC) based on [this](https://math.stackexchange.com/a/2285699), states (if I understood correctly) that an int of the form `2^a + n`, where `n` is a number already checked and `2^a >= n`, could be discarded if the length of the hailstone sequence is small enough to preserve at least 1 of the zeros of the most significant slice (the zeros that were added by the power of 2). So a binary numeral like `10000000000000011` can be discarded because the hailstone length of 3 is small, however a numeral like `10111` must be processed because the hailstone length of 7 is too long to preserve the only `0` available
+## Counter-example searching optimization
+According to [this](https://math.stackexchange.com/a/2285699), (if I understood correctly) an int of the form `2^a + n`, where `n` is a number already checked and `2^a >= n`, could be discarded if the length of the hailstone sequence of `n` is short enough to preserve at least 1 of the zeros of the most significant slice (the zeros that were added by the power of 2).
+
+So a numeral like `0b10000000000000011` can be immediately discarded (not a counter-example candidate) because the hailstone length of 3 (`0b11`) is small, however a numeral like `0b10111` must be checked because the hailstone length of 7 (`0b111`) is too long to preserve the only `0` available.
 
 ## Unconditional fn limit
 Let `f` be the "shortcut" Collatz function. Does the following limit converge for some unknown x?
