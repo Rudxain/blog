@@ -7,11 +7,7 @@ If `n` is a Natural that when tripled and incremented becomes a power of 2 then 
 An optimization (for finding counter-examples to CC) based on [this](https://math.stackexchange.com/a/2285699), states (if I understood correctly) that an int of the form `2^a + n`, where `n` is a number already checked and `2^a >= n`, could be discarded if the length of the hailstone sequence is small enough to preserve at least 1 of the zeros of the most significant slice (the zeros that were added by the power of 2). So a binary numeral like `10000000000000011` can be discarded because the hailstone length of 3 is small, however a numeral like `10111` must be processed because the hailstone length of 7 is too long to preserve the only `0` available
 
 ## Unconditional fn limit
-Consider this function:
-```
-let f(x) = (3x + 1) / 2
-```
-Does the following limit converge for any arbitrary x?
+Let `f` be the "shortcut" Collatz function. Does the following limit converge for some unknown x?
 ```
 lim n->∞ f^(n+1)(x) / f^n(x)
 ```
