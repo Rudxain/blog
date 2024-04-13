@@ -1,6 +1,22 @@
 # My experience and questions about [CC](https://en.wikipedia.org/wiki/Collatz_conjecture)
 This page is about all of the things I learned about the CC, and some unanswered questions I had along the way
 
+## Some algebra
+If `n` is a Natural that when tripled and incremented becomes a power of 2 then it's of the form `3n + 1 = 2^m`, thus equivalent to `n = Mersenne(m) / 3`. Therefore, `m = 2k`, because `bitlen(3) = 2`, where `bitlen(x) = ilb(x) + 1`, so `n = (2^(2k) - 1) / 3`. This means that `3n+1` is a **perfect square power of 2**, because it has an even number of binary trailing zeros.
+
+An optimization (for finding counter-examples to CC) based on this <https://math.stackexchange.com/a/2285699> , states (if I understood correctly) that an int of the form `2^a + n`, where `n` is a number already checked and `2^a >= n`, could be discarded if the length of the hailstone sequence is small enough to preserve at least 1 of the zeros of the most significant slice (the zeros that were added by the power of 2). So a binary numeral like `10000000000000011` can be discarded because the hailstone length of 3 is small, however a numeral like `10111` must be processed because the hailstone length of 7 is too long to preserve the only `0` available
+
+## Unconditional fn limit
+Consider this function:
+```
+let f(x) = (3x + 1) / 2
+```
+Does the following limit converge for any arbitrary x?
+```
+lim n->∞ f^(n+1)(x) / f^n(x)
+```
+Is it irrational? If so, is it transcendental?
+
 ## What if we pretend CC is false?
 For all practical purposes, it's guaranteed to be true, but that's boring because nothing has changed. So what's so interesting about it being false? There are 2 types of counter-examples:
 
@@ -14,7 +30,9 @@ If there's a n such that C^k(n) < C^(k+1)(n) **for all k**, then n diverges to +
 
 This case is interesting because, unlike the cycle, we (maybe just me?) can infer more information about the properties of this value:
 - it must be odd, as all evens would be reduced until it hits an odd number
-- it would **persist to be odd** when using the "shortcut" fn, thereby explaining the unbound growth, as ×3 factor dominates ÷2 (the +1 doesn't contribute significantly to growth)
+- it would **persist to be odd** when using the "shortcut" fn, thereby explaining the unbounded growth, as ×3 factor dominates ÷2 (the +1 doesn't contribute significantly to growth)
+
+If we take a heuristic/statistical POV, **this is impossible**. But let's assume it is.
 
 Thanks to the power of algebra™, we can pretend to do arithmetic with such a value. Let's call it ç, for short:
 - 3ç + 1 = 0 mod 2
