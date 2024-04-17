@@ -2,7 +2,11 @@
 This page is about all of the things I learned about the CC, and some unanswered questions I had along the way
 
 ## Relation with Mersenne
-If `n` is a Natural that when tripled and incremented becomes a power of 2 then it's of the form `3n + 1 = 2^m`, thus equivalent to `n = Mersenne(m) / 3`. Therefore, `m = 2k`, because `bitlen(3) = 2`, where `bitlen(x) = ilb(x) + 1`, so `n = (2^(2k) - 1) / 3`. This means that `3n+1` is a **perfect square power of 2**, because it has an even number of binary trailing zeros.
+If `n` is a Natural that when tripled and incremented becomes a power of 2 then it's of the form `3n + 1 = 2^m`, thus equivalent to `n = M(m) / 3`, implying `M(m) mod 3 = 0`.
+
+Therefore `m = 2k` for some int k, because `bitlen(3) = 2` (where `bitlen(x) := ilb(x) + 1`), so `n = (2^(2k) - 1) / 3`. There is a generalized theorem that explains why `M(2k) mod M(2) = 0`, and I don't remember where's the proof. However, [there is proof](https://math.stackexchange.com/questions/7473/prove-that-gcdan-1-am-1-a-gcdn-m-1) for the following theorem: `gcd(M(n), M(m)) = M(gcd(n, m))`
+
+This means that `3n+1` is a **perfect square power of 2**, because it has an even count of trailing zeros in binary.
 
 ## Counter-example searching optimization
 According to [this](https://math.stackexchange.com/a/2285699), (if I understood correctly) an int of the form `2^a + n`, where `n` is a number already checked and `2^a >= n`, could be discarded if the length of the hailstone sequence of `n` is short enough to preserve at least 1 of the zeros of the most significant slice (the zeros that were added by the power of 2).
