@@ -51,3 +51,4 @@ Perhaps it could find practical use with respect to primes?
 - [Veritasium](https://youtu.be/094y1Z2wpJg)
 - [@makessenseright](https://youtu.be/i4OTNm7bRP8) (underrated)
 - [Mem optimization](https://math.stackexchange.com/questions/3330085/computational-verification-of-collatz-problem)
+- [Benford's law applies](https://www.johndcook.com/blog/2017/05/03/the-3n1-problem-and-benfords-law)
