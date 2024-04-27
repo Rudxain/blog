@@ -1,4 +1,7 @@
 # Dogma for the non-sentient
+
+> What I'm about to say may be BS
+
 Imagine a child that has been indoctrinated to believe that:
 - water doesn't move
 - you can resurrect if you die
@@ -23,7 +26,7 @@ specifying protocols | mandating rituals
 
 The analogy breaks down when one considers the diff between axioms and dogmas:
 - Axioms are isolated to a conceptual space known as an Axiom System. The system must be consistent (no contradictions), otherwise information won't be preserved during data processing, since invariants and preconditions will be broken at any time.
-- Dogmas are stated on top of existing reality (not isolated), disguising misinformation as true knowledge. These are totally careless about contradictions, between themselves and/or reality.
+- Dogmas are stated on top of existing reality (not isolated), disguising misinformation as true knowledge. These are totally careless about contradictions between themselves and/or reality, because they usually "evolve" naturally rather than being well-thought-out.
 
 ## Why
 Why am I writing this? Because dogmas are always bad for humans, there's no excuse. But I want to propose that there are special cases where "dogma-like" stuff is useful, and that's computation and robotics.
