@@ -44,7 +44,8 @@ Thanks to the power of algebra™, we can pretend to do arithmetic with such a v
 
 That's about it 🤷‍♂. I couldn't think of more examples. And even if there were more examples, it wouldn't be a very useful number anyways, at least in the context of arithmetic.
 
-Perhaps it could find practical use with respect to primes?
+Perhaps it could find practical use with respect to _primes_?
+Maybe it's the key to proving _[RH](https://en.wikipedia.org/wiki/Riemann_hypothesis)?_
 
 ## See also
 - [Numberphile](https://youtu.be/5mFpVDpKX70)
