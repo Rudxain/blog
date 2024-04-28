@@ -36,7 +36,7 @@ However, auto-updates of any kind (regular, irregular, poll, event-driven, etc..
 
 That's a valid point! But it mostly affects apps that "require" (or force users to require) internet connection. (See how they did another generalization?)
 
-I absolutely despise apps that should work totally fine offline, but crappy devs use frameworks that make the server more indispensable than it should.
+I absolutely despise apps that should work totally fine offline, but devs use crappy frameworks that make the server more indispensable than it should. I don't blame them (mostly), those FWs can be attractive, and sometimes they have no choice but to maintain a codebase that made poor design decisions.
 
 Don't get me wrong, server-side rendering is fine, in **(actually) reasonable** situations.
 
@@ -44,7 +44,7 @@ Don't get me wrong, server-side rendering is fine, in **(actually) reasonable** 
 
 Ever heard of the [Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Storage)? Cookies? (3 generalizations!)
 
-I get the point. They're talking about those apps that require user-accounts for seemingly no reason. I hate when apps force me to register/login/sign-in just to do something trivial (looking at you, Twitter and Pinterest). Corps come with the excuse "bot protection", but that's what CAPTCHAs are for!
+I get the point. They're talking about those apps that require user-accounts for seemingly no reason. I hate when apps force me to register/login/sign-in just to do something trivial (looking at you: Samsung, Twitter and Pinterest). Corps come with the excuse "bot protection", but that's what CAPTCHAs are for!
 
 > backups of your data, but you'd have to figure out how to decode
 
