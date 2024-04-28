@@ -14,7 +14,7 @@ Imagine another kid, who hasn't even seen the light of the Sun. Their childhood 
 
 The reality might disturb you, but this is **happening right now all around the world**, and these kids are formally known as "computers".
 
-I'm not saying this is bad, just that dogmas are _bad for sentient beings_ as it takes away their intellectual freedom (freedom of thought).
+I'm not saying this is bad, just that [dogmas are _bad for sentient beings_](https://youtu.be/0nz0iaNvVpE)(link title: "The ONE RULE for LIFE - Immanuel Kant's Moral Philosophy - Mark Manson") as it takes away their intellectual freedom (freedom of thought).
 
 ## Equivalence
 A | B
