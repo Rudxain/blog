@@ -30,7 +30,9 @@ BG updates do have some advantages, such as pre-downloading (and optionally pre-
 However, auto-updates of any kind (regular, irregular, poll, event-driven, etc..) can be inopportune, that's why I sometimes prefer to only update when I give explicit consent.
 
 > no longer welcome
+>
 > [...]
+>
 > servers are offline
 
 That's a valid point! But it mostly affects apps that "require" (or force users to require) internet connection. (See how they did another generalization?)
