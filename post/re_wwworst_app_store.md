@@ -13,7 +13,9 @@ This seems like a contradiction to the following statements in that article, whe
 
 > be online to run them
 
-From this point onwards (which is **very early** in the article) they start doing unfair generalizations. I get that it's just rhetoric, but it seems somewhat fallacious to not even put a disclaimer at some point in the article.
+From this point onwards (which is **very early** in the article) they start doing unfair generalizations. In this case, they didn't acknowledge that [PWAs](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) can installed for offline use.
+
+I get that it's just rhetoric, but it seems somewhat fallacious to not even put a disclaimer at some point in the article.
 
 > you start them, they contact the app store
 
@@ -65,7 +67,9 @@ At least they seem to acknowledge some apps are server-side-rendered HTML+CSS
 
 > don't have control over what the program does
 
-Ironically, JS is much more ductile than machine-code and byte-code. That's why bookmarklets and scriptlets are so easy to develop and inject, if compared to modding and disassembling of binaries.
+Ironically, JS is much more ductile than machine-code and byte-code. That's why [bookmarklets](https://en.wikipedia.org/wiki/Bookmarklet) and scriptlets are so easy to develop and inject, if compared to modding and disassembling of binaries.
+
+Were they talking about server-side code?
 
 > don't have control over when you can run it
 
@@ -73,3 +77,14 @@ Tangent-topic: it would be really nice if browsers could pause/resume JS/Wasm. O
 
 As of now, the alternative is to reload the app everytime we [toggle scripting in uBO](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-scripting)
 
+> don't have control over your own data
+
+Again, that isn't specific to web apps. But I agree with the sentiment.
+
+> lose when the JavaScript code is nonfree
+
+Propaganda. And license is irrelevant.
+
+> lose when it is (nominally) free software!
+
+[Fallacy](https://techdirt.com/2012/12/20/stop-saying-if-youre-not-paying-youre-product)
