@@ -2,10 +2,9 @@
 > (WIP)
 
 ## Prelude
-> [!note]
-> Whenever you see quote-blocks (like this one), assume "[...]" is inserted before and after its contents. This is because most quotes will be reduced to their key substrings.
-> 
-> For further context about the quotes, read the GNU article linked in the heading
+Whenever you see quote-blocks, assume "[...]" is inserted before and after its contents. This is because most quotes will be reduced to their key substrings.
+
+For further context about the quotes, read the GNU article linked in the heading
 
 ## Content
 > run on your own computer
