@@ -1,12 +1,9 @@
-# Von Neumann Turing Machine
+# [Von Neumann](https://en.wikipedia.org/wiki/Von_Neumann_architecture) [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
 
 ## Basics
-
-A programming language designed for self-modifying Busy-Beavers and binary and ternary Turing Machines. It'll be compilable to a native executable. Before compiling, the compiler will check if there's a `.tape_init.bin` file in the same directory as the source file, and it'll use that to define the initial memory/tape of the TM. The compiled TM also supports passing "tape files" via `arg[1]` (as path) and `stdin` (as raw) to use a different initializer at invocation-time.
-
+A programming language designed for [self-modifying](https://en.wikipedia.org/wiki/Self-modifying_code) [Busy-Beavers](https://en.wikipedia.org/wiki/Busy_beaver) and binary and ternary Turing Machines. It'll be compilable to a native executable. Before compiling, the compiler will check if there's a `.tape_init.bin` file in the same directory as the source file, and it'll use that to define the initial memory/tape of the TM. The compiled TM also supports passing "tape files" via `arg[1]` (as path) and `stdin` (as raw) to use a different initializer at invocation-time.
 
 ## State-Table encoding
-
 Everything but state-labels can be encoded in 1 alphabet symbol (1bit or 1trit, in our case). State labels could be mapped to arbitrary-size state-IDs when compiling. The "halt" state is not special, as any ID that points to a non-existent (or null/void/empty) state should cause the TM to halt.
 
 Ternary machines will have a _special ability:_ Do nothing.
@@ -28,7 +25,6 @@ There are too many valid ways to define a self-modifying Hardvard TM:
 - Should ST be alphabet-encoded at all, or should it be a purely abstract mathematical object? (no double-tape)
 
 In contrast, VN (despite being harder to debug) is much more straightforward:
-
 - 1 "standard" ST
 - 1 tape and head
 - native-alphabet ST
@@ -36,9 +32,7 @@ In contrast, VN (despite being harder to debug) is much more straightforward:
 
 Since TMs are supposed to be "the simplest Turing-Complete models of computation", and because I'm lazy, I choose VN over HV.
 
-
 ## Implementation
-
 The compiler will be written in Rust. The compiler backend (to convert TM/BB byte-code into native machine-code) will be LLVM.
 
 To emulate infinite memory, buffering will be performed, non-buffered memory would be stored in a `.tape_swap.bin` file. Since TM-heads only do sequential memory access, we can exploit that, to buffer data similarly to Minecraft (locality of reference is strong).
@@ -46,5 +40,3 @@ To emulate infinite memory, buffering will be performed, non-buffered memory wou
 To reduce the frequency of read-write syscalls, we'll use an **overlapping chunk** system, unlike MC's non-overlapping chunk. This allows us to have a **load-distance of 1**, since 1 big overlapping-chunk is equivalent to multiple small non-overlapping-chunks. In this system, we update the load-zone only when the TM-head reaches a 64b-word at either end of the loaded-chunk. Since the head always "spawns" at the center of the load-zone, we can treat this zone as a **1D circle,** where the default distance from head to end is the *"load-radius"*. I've realized that, in a 1D context, **Pi=1**, because the *diameter is the circumference* ([oh wait it's 4](https://math.stackexchange.com/a/518830)).
 
 The tape will have something similar to Minecraft JE "spawn chunks", because ST must always be loaded, for obvious performance reasons.
-
-## Other alphabets
