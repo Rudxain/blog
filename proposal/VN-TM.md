@@ -41,3 +41,10 @@ To emulate infinite memory, buffering will be performed, non-buffered memory wou
 To reduce the frequency of read-write syscalls, we'll use an **overlapping chunk** system, unlike MC's non-overlapping chunk. This allows us to have a **load-distance of 1**, since 1 big overlapping-chunk is equivalent to multiple small non-overlapping-chunks. In this system, we update the load-zone only when the TM-head reaches a 64b-word at either end of the loaded-chunk. Since the head always "spawns" at the center of the load-zone, we can treat this zone as a **1D circle,** where the default distance from head to end is the *"load-radius"*. I've realized that, in a 1D context, **Pi=1**, because the *diameter is the circumference* ([oh wait it's 4](https://math.stackexchange.com/a/518830)).
 
 The tape will have something similar to Minecraft JE "spawn chunks", because ST must always be loaded, for obvious performance reasons.
+
+## FAQ
+> Why only bases 2 or 3?
+
+Because (in the context of computer science) there's nothing especial about higher radices. Unless we replace the linear tape by a **2D grid**, in which case a quaternary and quinary TMs would benefit from more degrees of freedom (4 directions, 1 opcode to do nothing).
+
+[BCT](https://en.wikipedia.org/wiki/Ternary_numeral_system#Binary-coded_ternary) already complicates the implementation, so adding [BCQ](https://rudxain.github.io/RX-wiki/wiki/Base-Coded_Radix) would be too much to maintain (let alone arbitrary bases)
