@@ -4,6 +4,8 @@ A [SDK](https://en.wikipedia.org/wiki/Software_development_kit) designed for bin
 
 It'll include an interpreter for debugging, and a compiler for tests. The compiler/interpreter will check if there's a `.tape_init.bin` file in the same directory as the source file, and it'll use that to define the initial memory/tape of the TM. The compiled TM also supports passing "tape files" via `arg[1]` (as path) and `stdin` (as raw) to use a different initializer at invocation-time.
 
+Standard [Harvard](https://en.wikipedia.org/wiki/Harvard_architecture) TMs will be supported too.
+
 ## State-Table encoding
 Everything but state-labels can be encoded in 1 alphabet symbol (1bit or 1trit, in our case). State labels could be mapped to arbitrary-size state-IDs when compiling. The "halt" state is not special, as any ID that points to a non-existent (or null/void/empty) state should cause the TM to halt.
 
@@ -15,23 +17,18 @@ I'm serious! Binary TMs can only shift left or right, but ternary ones can also 
 
 For the TM to know what's part of the ST and what's "out-of-bounds", we need a small metadata that specifies the size of ST. This metadata will always be placed at the same tape address, adjacent to ST. It'll be implemented as a var-int, to support theoretically-infinite states.
 
-Most of this assumes the TM uses the Von Neumann architecture. A standard TM uses the Hardvard Architecture, but doesn't have "opcodes" for rewriting ST.
-
 There are too many valid ways to define a self-modifying Hardvard TM:
-
 - Do we use 2 STs concatenated with each other? Or do we merge them into 1?
 - If we do concatenate them, what order is most "natural"?
-- Should we have 2 TMs (where 1 rewrites the 2nd TM's ST, such that both are driven by the same "clock"), or 1 double-tape double-head TM?
+- Should we have 2 TMs (where 1 rewrites the 2nd TM's ST, such that both are driven by the same [clock](https://en.wikipedia.org/wiki/Clock_generator)), or 1 double-tape double-head TM?
 - Should ST be written in an arbitrary alphabet (**multi-alphabet** TM), or the native alphabet of the TM?
 - Should ST be alphabet-encoded at all, or should it be a purely abstract mathematical object? (no double-tape)
 
-In contrast, VN (despite being harder to debug) is much more straightforward:
+In contrast, VN (despite being harder to debug) lends naturally:
 - 1 "standard" ST
 - 1 tape and head
 - native-alphabet ST
 - if TM is binary, use binary-encoded ST
-
-Since TMs are supposed to be "the simplest Turing-Complete models of computation", and because I'm lazy, I choose VN over HV.
 
 ## Implementation
 The compiler will be written in Rust. The compiler backend (to convert TM/BB byte-code into native machine-code) will be LLVM.
