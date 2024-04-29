@@ -18,9 +18,9 @@ There are too many valid ways to define a self-modifying Hardvard TM:
 
 In contrast, VN (despite being harder to debug) lends naturally:
 - 1 "standard" ST
-- 1 tape and head
-- native-alphabet ST
-- if TM is binary, use binary-encoded ST
+- 1 tape
+- 1 head
+- native-alphabet ST (if TM is binary, use binary-encoded ST)
 
 This is why VN is used for SMC, while HA is used for "standard mode".
 
