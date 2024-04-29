@@ -1,6 +1,6 @@
 # [Von Neumann](https://en.wikipedia.org/wiki/Von_Neumann_architecture) [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
 
-A toolkit designed for binary and ternary [self-modifying](https://en.wikipedia.org/wiki/Self-modifying_code) [Busy-Beavers](https://en.wikipedia.org/wiki/Busy_beaver).
+A [SDK](https://en.wikipedia.org/wiki/Software_development_kit) designed for binary and ternary [self-modifying](https://en.wikipedia.org/wiki/Self-modifying_code) [Busy-Beavers](https://en.wikipedia.org/wiki/Busy_beaver).
 
 It'll include an interpreter for debugging, and a compiler for tests. The compiler/interpreter will check if there's a `.tape_init.bin` file in the same directory as the source file, and it'll use that to define the initial memory/tape of the TM. The compiled TM also supports passing "tape files" via `arg[1]` (as path) and `stdin` (as raw) to use a different initializer at invocation-time.
 
