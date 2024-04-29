@@ -33,7 +33,7 @@ I'm serious! Binary TMs can only shift left or right, but ternary ones can also 
 - `+` = `>` "right"
 - `0` = `_` = "stay"
 
-For the TM to know what's part of the ST and what's "out-of-bounds", we need a small metadata that specifies the size of ST. This metadata will always be placed at the same tape address, adjacent to ST. It'll be implemented as a var-int, to support theoretically-infinite states.
+For the TM to know what's part of the ST and what's "out-of-bounds", we need a small metadata that specifies the size of ST. This metadata will always be placed at the same tape address, adjacent to ST. It'll be implemented as a [var-int](https://en.wikipedia.org/wiki/Variable-length_quantity#Applications_and_history), to support theoretically-infinite states.
 
 ## Implementation
 The compiler will be written in Rust. The compiler backend (to convert TM/BB byte-code into native machine-code) will be LLVM.
