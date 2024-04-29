@@ -1,7 +1,8 @@
 # [Von Neumann](https://en.wikipedia.org/wiki/Von_Neumann_architecture) [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
 
-## Basics
-A programming language designed for [self-modifying](https://en.wikipedia.org/wiki/Self-modifying_code) [Busy-Beavers](https://en.wikipedia.org/wiki/Busy_beaver) and binary and ternary Turing Machines. It'll be compilable to a native executable. Before compiling, the compiler will check if there's a `.tape_init.bin` file in the same directory as the source file, and it'll use that to define the initial memory/tape of the TM. The compiled TM also supports passing "tape files" via `arg[1]` (as path) and `stdin` (as raw) to use a different initializer at invocation-time.
+A toolkit designed for binary and ternary [self-modifying](https://en.wikipedia.org/wiki/Self-modifying_code) [Busy-Beavers](https://en.wikipedia.org/wiki/Busy_beaver).
+
+It'll include an interpreter for debugging, and a compiler for tests. The compiler/interpreter will check if there's a `.tape_init.bin` file in the same directory as the source file, and it'll use that to define the initial memory/tape of the TM. The compiled TM also supports passing "tape files" via `arg[1]` (as path) and `stdin` (as raw) to use a different initializer at invocation-time.
 
 ## State-Table encoding
 Everything but state-labels can be encoded in 1 alphabet symbol (1bit or 1trit, in our case). State labels could be mapped to arbitrary-size state-IDs when compiling. The "halt" state is not special, as any ID that points to a non-existent (or null/void/empty) state should cause the TM to halt.
