@@ -13,7 +13,7 @@ This seems like a contradiction to the following statements in that article, whe
 
 > be online to run them
 
-From this point onwards (which is **very early** in the article) they start doing unfair generalizations. In this case, they didn't acknowledge that [PWAs](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) can installed for offline use.
+From this point onwards (which is **very early** in the article) they start doing unfair generalizations. In this case, they didn't acknowledge that [PWAs](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) can be installed for offline use.
 
 I get that it's just rhetoric, but it seems somewhat fallacious to not even put a disclaimer at some point in the article.
 
