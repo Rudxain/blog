@@ -17,7 +17,7 @@ I was already bored/tired of using Samsung products (specially phones), but now 
 All started when I was using my Galaxy J3 Mission, tinkering around, looking at the "Running processes" section of the dev settings.
 Then, I notice that the launcher (Samsung Experience Home) was running **all the time** since the device was turned on (it matched "Up Time").
 The culprit was the "notification listener service", which I couldn't turn off because it was **hidden from the "Notification Access" list.**
-This was very annoying, because it constantly consumed RAM for no reason.
+This was very annoying, because it constantly consumed CPU for no reason (instead of RAM Cache, which only consumes memory).
 
 ## Present
 
