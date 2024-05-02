@@ -1,5 +1,5 @@
 # [Re:](https://en.wikipedia.org/wiki/List_of_email_subject_abbreviations#Standard_prefixes) [The WWWorst App Store](https://www.gnu.org/philosophy/wwworst-app-store.html)
-> (WIP)
+> Work In Progress, because I don't have time for this
 
 ## Prelude
 Whenever you see quote-blocks, assume "[...]" is inserted before and after its contents. This is because most quotes will be reduced to their key substrings.
