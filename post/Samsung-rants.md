@@ -187,7 +187,7 @@ I had to make a /Llamalab/Automate flow to manually lock the device. A **basic**
 
 I've never seen a Galaxy device properly respond to an MMI code.
 
-You know, those numbers and symbols you have to dial in the Phone app to open hidden settings? [That's forbidden](https://tenor.com/view/we-dont-do-that-here-black-panther-tchalla-bruce-gif-16558003)
+You know, those numbers and symbols you have to dial in the Phone app to open hidden settings? That's forbidden: ![T'Challa saying "We don't do that here"](https://c.tenor.com/fBvQV_5Lp6UAAAAC/tenor.gif)
 
 None of the AOSP codes, nor OEM-specific (Samsung), work. It doesn't matter if the device is old or new (from Galaxy J3 to A31)
 
@@ -196,7 +196,8 @@ The only ones that worked so far are:
 - `HwModuleTest`: \*#0\*#
 
 ### RIP SUIT
-[No System UI Tuner?!](https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fphotos%2Fimages%2Fnewsfeed%2F002%2F297%2F368%2F17f.jpg)
+No System UI Tuner?!
+![Megamind saying "No bitches?"](https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fphotos%2Fimages%2Fnewsfeed%2F002%2F297%2F368%2F17f.jpg)
 
 ### Cannot share via WiFi Direct
 
