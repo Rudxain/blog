@@ -1,7 +1,12 @@
-# S rants
+# Samsung rants
 
 > [!WARNING]
-> This contains slurs and obscene phrases 
+> ⚠️ This contains slurs and obscene phrases!
+
+> [!tip]
+> Please take this humorously, not so seriously.
+> 
+> If you're a S fan, it'll be your fault if you get offended, not mine 🤷‍♂️
 
 ## Intro
 
