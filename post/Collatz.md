@@ -52,4 +52,6 @@ Maybe it's the key to proving _[RH](https://en.wikipedia.org/wiki/Riemann_hypoth
 - [Veritasium](https://youtu.be/094y1Z2wpJg)
 - [@makessenseright](https://youtu.be/i4OTNm7bRP8) (underrated)
 - [Mem optimization](https://math.stackexchange.com/questions/3330085/computational-verification-of-collatz-problem)
+- [Group of ints `mod n`](https://math.stackexchange.com/questions/3940237/collatz-problem-on-integers-modulo-n)
+- [`÷ -2` instead of `2`](https://math.stackexchange.com/questions/2161249/collatz-divide-by-2-instead)
 - [Benford's law applies](https://www.johndcook.com/blog/2017/05/03/the-3n1-problem-and-benfords-law)
