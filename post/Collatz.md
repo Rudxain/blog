@@ -44,8 +44,8 @@ This case is interesting because, unlike the cycle, we (maybe just me?) can infe
 If we take a heuristic/statistical POV, **this is impossible**. But let's assume it is.
 
 Thanks to the power of algebra™, we can pretend to do arithmetic with such a value. Let's call it ç, for short:
-- 3ç + 1 = 0 mod 2
-- (3ç + 1) ÷ 2 = 1 mod 2
+- 3ç + 1 ≡ 0 [(mod 2)](https://en.wikipedia.org/wiki/Modular_arithmetic#Congruence)
+- (3ç + 1) ÷ 2 ≡ 1 (mod 2)
 - ?
 
 That's about it 🤷‍♂. I couldn't think of more examples. And even if there were more examples, it wouldn't be a very useful number anyways, at least in the context of arithmetic.
