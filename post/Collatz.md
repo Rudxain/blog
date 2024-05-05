@@ -8,6 +8,12 @@ Therefore `m = 2k` for some int k, because `bitlen(3) = 2` (where `bitlen(x) := 
 
 This means that `3n+1` is a **perfect square power of 2**, because it has an even count of trailing zeros in binary.
 
+`n` would look like `...10101` in binary. Remember that `3x = 2x+x` for all Real `x`. Here's a "visual proof" of the previous paragraphs:
+1. 10 × 10101 = `10101 << 1` = 101010
+10. 101010 + 10101 = `101010 ^ 10101` = `101010 | 10101` = 111111 = M(110)
+11. 111111 + 1 = 1000000 = 10^(10 × 11) = `1 << 110`
+100. QED
+
 ## Counter-example searching optimization
 According to [this](https://math.stackexchange.com/a/2285699), (if I understood correctly) an int of the form `2^a + n`, where `n` is a number already checked and `2^a >= n`, could be discarded if the length of the hailstone sequence of `n` is short enough to preserve at least 1 of the zeros of the most significant slice (the zeros that were added by the power of 2).
 
