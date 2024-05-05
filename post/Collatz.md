@@ -1,7 +1,7 @@
 # My experience and questions about [CC](https://en.wikipedia.org/wiki/Collatz_conjecture)
 This page is about all of the things I learned about the CC, and some unanswered questions I had along the way
 
-## Relation with Mersenne
+## Relation with [Mersenne](https://en.wikipedia.org/wiki/Mersenne_number)
 If `n` is a Natural that when tripled and incremented becomes a power of 2 then it's of the form `3n + 1 = 2^m`, thus equivalent to `n = M(m) / 3`, implying `M(m) mod 3 = 0`.
 
 Therefore `m = 2k` for some int k, because `bitlen(3) = 2` (where `bitlen(x) := ilb(x) + 1`), so `n = (2^(2k) - 1) / 3`. There is a generalized theorem that explains why `M(2k) mod M(2) = 0`, and I don't remember where's the proof. However, [there is proof](https://math.stackexchange.com/questions/7473/prove-that-gcdan-1-am-1-a-gcdn-m-1) for the following theorem: `gcd(M(n), M(m)) = M(gcd(n, m))`
