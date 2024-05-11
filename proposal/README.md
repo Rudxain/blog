@@ -1,3 +1,4 @@
 - [æfect](æfect.md)
+- [Nearest continuous permutation](near_permut.md)
 - [Von Neumann Turing Machine](VN-TM.md)
 - [UG](UnderGrounds.md)
