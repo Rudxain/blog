@@ -1,6 +1,7 @@
 - [An acoustic network protocol (data-over-sound)](acoustic-protocol.md)
 - [Busy Beaver Hashing concept](Busy_Hash.md)
 - [Me & Collatz](Collatz.md)
+- [Altice rant](altice-rant.md)
 - [Samsung Rants](Samsung-rants.md) ⚠️WARNING: slurs & obscene phrases!
 - [JavaScript abuse](js-abuse.md)
 - [Reply to "WWWorst App Store"](re_twwwas.md)
