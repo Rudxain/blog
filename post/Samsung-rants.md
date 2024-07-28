@@ -1,7 +1,7 @@
 # Samsung rants
 
 > [!WARNING]
-> ⚠️ This contains slurs and obscene phrases!
+> ⚠️ This contains swear-words and obscene phrases!
 
 > [!tip]
 > Please take this humorously, not so seriously.
