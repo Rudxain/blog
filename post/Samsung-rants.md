@@ -52,7 +52,7 @@ It says "MB" but it actually is "MiB", which is misleading. I noticed this becau
 
 I installed Gboard, used it for some time, cleared its 📋CB history, uninstalled it, and noticed S Keyboard **still has the old CB entries**.
 
-This is a massive **privacy vulnerability!**
+This is a massive **[privacy vulnerability](https://reddit.com/r/privacy/comments/1949mgk)!**
 Imagine you thought you deleted all passwords from a 3rd-party CB, only to get hacked by someone who took your phone and enabled S Keyboard as the default keyboard.
 
 They haven't fixed this for years! The J3 Mission has the exact same problem.
