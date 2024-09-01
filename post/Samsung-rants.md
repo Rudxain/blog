@@ -7,7 +7,7 @@
 > **DISCLAIMER:**
 > I hate Samsung (the corporation), not the employees.
 > 
-> Hating someone just because they work at a crappy place for a living, is usually immoral. Unless they do it intentionally, with the purpose of making the world worse.
+> It's wrong to hate someone just because they work at a crappy place for a living... Unless they do it intentionally, with the purpose of making the world worse.
 
 > [!tip]
 > Please take this humorously, not so seriously.
