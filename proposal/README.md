@@ -1,3 +1,4 @@
+- [Reusable contracts](DRY-T&C.md)
 - [æfect](æfect.md)
 - [Nearest continuous permutation](near_permut.md)
 - [Von Neumann Turing Machine](VN-TM.md)
