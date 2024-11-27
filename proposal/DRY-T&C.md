@@ -43,7 +43,11 @@ Even if they could refer to an existing contract in a "rigorous" way, there's st
 
 > Well, then what about versioning? Why not slap a [sem-ver](https://semver.org/) number and [CIAD](https://en.wiktionary.org/wiki/call_it_a_day)?
 
-Because you're still referring to the contract using whatever identifier the author invented. This is prone to fragmentation (see [Linux distros](https://itsfoss.com/desktop-linux-torvalds/) and [this XKCD](https://xkcd.com/927/)) as every contract author may use different naming conventions and versioning schemes, heck they can even be inconsistent with themselves! (see [USB3](https://news.ycombinator.com/item?id=31069128))
+Because you're still referring to the contract using whatever identifier the author invented:
+- This is prone to fragmentation (see [Linux distros](https://itsfoss.com/desktop-linux-torvalds/) and [this XKCD](https://xkcd.com/927/)) as every contract author may use different naming conventions and versioning schemes, heck they can even be inconsistent with themselves! (see [USB3](https://news.ycombinator.com/item?id=31069128))
+- If the identifier is a [URI/URL](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier), then it may be prone to [rotting](https://en.wikipedia.org/wiki/Link_rot).
+
+Either way, the ID may not be "legally-valuable", as an org may not be recognized internationally.
 
 ## Solution
 Here comes my proposed solution...
