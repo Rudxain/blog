@@ -28,12 +28,13 @@ The following is a list of resources to which I feel grateful:
 - [SPDX](https://en.wikipedia.org/wiki/Software_Package_Data_Exchange) has _mostly_ solved this for [OSS](https://en.wikipedia.org/wiki/Open-source_software) licenses. If you want a modified version of a license, you must [inline](https://en.wikipedia.org/wiki/Inline_expansion) the full text anyways... ([square 1](https://en.wiktionary.org/wiki/back_to_square_one)).
 - The [OpenPD](https://openpd.org/) aims to solve this for privacy-policies.
 - There's [this paper about "Machine-Readable Privacy Notices"](https://ieeexplore.ieee.org/document/10386763). I haven't read it yet, I'm just referencing it.
-- [This tool](https://rejectconvenience.com/privacy-visualizer) helps users "digest" privacy-policies, but doesn't solve the underlying problem.
+- [This tool](https://rejectconvenience.com/privacy-visualizer) and [this site](https://tosdr.org/) help users "digest" privacy-policies, but don't solve the underlying problem.
 
 ## Why?
 As a "layperson", you might wonder:
 > why can't [orgs](https://en.wikipedia.org/wiki/Organization) and [corps](https://en.wikipedia.org/wiki/Corporation) simply say
 > "BTW, our terms are the same as Google's, except for this part"
+> Or any sort of summary?
 
 The whole point of "legally-valid" contracts is that there should be no ambiguity (this is why legalese looks like a programming language), as any omitted detail could become a [loop-hole](https://en.wikipedia.org/wiki/Loophole), which is equivalent to a [software vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)). That's the reason why there's so much legalese, because lawyers need to cover **everything** (every possible scenario in the past, present, and future), to protect the org from "abusive users" exploiting the holes.
 
