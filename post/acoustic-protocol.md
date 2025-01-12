@@ -47,7 +47,7 @@ Also, resets can be quite slow: There was a Dell Inspiron that had a power-savin
 
 These are just a few of many reasons why a specialized device (analogous to a Bluetooth chip-transceiver combo) is much better than an average DSP-speaker&microphone combo.
 
-Another advance of specialized hardware, is that there's no need for sine-transforms if the set of available bands depends on hardware sensors. This is exactly how the human ear works. The brain doesn't have a "Fourier-Transform neural circuit" it's just that the ears already have receptors that are sensitive to specific frequencies (like the human retina, but with **orders of magnitude** more bands).
+Another advantage of specialized hardware, is that there's no need for sine-transforms if the set of available bands depends on hardware sensors. This is exactly how the human ear works. The brain doesn't have a "Fourier-Transform neural circuit" it's just that the ears already have receptors that are sensitive to specific frequencies (like the human retina, but with **orders of magnitude** more bands).
 
 As I said previously, hard-coded bands are bad, because you can't dynamically adapt them according to the environment and receiver.
 
@@ -55,6 +55,20 @@ As I said previously, hard-coded bands are bad, because you can't dynamically ad
 
 Because the channels are also hard-coded. You can _switch_ channels, but you can't _shift_ them.
 
+## Error correction
+We haven't even talked about this! Oh boy, don't get me started.
+
+As I previously mentioned, the protocol must protect the signals against:
+- noise
+- reverb ("echo")
+- Doppler Effect
+
+Noise is mostly impossible to eliminate, unless the receiver has a [secondary mic in the opposite direction](https://en.m.wikipedia.org/wiki/Active_noise_control). This is standard for phones, but not laptops and desktops.
+
+We can protect against noise in general by adding redundancy (see Hamming Codes and Reed-Solomon).
+
+
+
 ## Trivia
-BTW, did you know that lower frequencies have more unique phases available? Me neither. This makes sense, as higher frequencies can "exhaust" the sampling-rate, reducing the set of possible phases. I actually lied, this is only true for frequencies that are half the sampling-rate 
+BTW, did you know that lower frequencies have more unique phases available? Me neither. This makes sense, as higher frequencies can "exhaust" the sampling-rate, reducing the set of possible phases. I actually lied, I've only similulated this in my brain with a low frequency wave and a half-sample-rate wave. I'm not sure if it's possible to preserve phase information by using a frequency that isn't perfectly half the sample-rate.
 
