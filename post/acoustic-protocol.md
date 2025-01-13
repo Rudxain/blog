@@ -107,6 +107,13 @@ Picture this.
 I've been thinking that each major app version should support its own set of melodic signatures. That way, all devices can recognize the feature-set that the others support.
 
 ## Privacy
+What if you want to send a file to 1 device while blocking Big Brother's all-seeing eyes? TLS/SSL and SSH have already solved this problem for us. They also include authentication and anti-tampering techniques.
+
+However, privacy isn't all about security, and sometimes security and privacy don't play nice with each other.
+
+Here are the privacy features of the app:
+- Opt-in auto-listen mode: You can choose to only enable the microphone explicitly, instead of continuously (while the app is open)
+- Anti-fingerprinting: FP are a set of techniques that are extremely hard to protect against, this is why it's a privacy nightmare. The protocol's magic-pulses must be constant across versions, and melodic-signatures should be opt-in.
 
 ## Trivia
 BTW, did you know that lower frequencies have more unique phases available? Me neither. This makes sense, as higher frequencies can "exhaust" the sampling-rate, reducing the set of possible phases. I actually lied, I've only similulated this in my brain with a low frequency wave and a half-sample-rate wave. I'm not sure if it's possible to preserve phase information by using a frequency that isn't perfectly half the sample-rate.
