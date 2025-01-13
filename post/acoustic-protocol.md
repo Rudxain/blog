@@ -93,7 +93,8 @@ For example, if a phone wants to broadcast a file to nearby phones, it can play 
 
 Notice how the definition is vague. This is how the "melodic signature" is an optional (but fun!) part of the protocol.
 
-Picture this.
+Picture this:
+
 0. You want to send a file to your friends
 1. All of you open the app on their phones
 2. The app is smart enough that you don't have to tell it when to "listen", so only you have to explicitly choose a file.
@@ -116,5 +117,5 @@ Here are the privacy features of the app:
 - Anti-fingerprinting: FP are a set of techniques that are extremely hard to protect against, this is why it's a privacy nightmare. The protocol's magic-pulses must be constant across versions, and melodic-signatures should be opt-in.
 
 ## Trivia
-BTW, did you know that lower frequencies have more unique phases available? Me neither. This makes sense, as higher frequencies can "exhaust" the sampling-rate, reducing the set of possible phases. I actually lied, I've only similulated this in my brain with a low frequency wave and a half-sample-rate wave. I'm not sure if it's possible to preserve phase information by using a frequency that isn't perfectly half the sample-rate.
+BTW, did you know that lower frequencies have more unique phases available? Me neither. This makes sense, as higher frequencies can "exhaust" the sampling-rate, reducing the set of possible phases. I actually lied, I've only simulated this in my brain with a low-frequency wave and a half-sample-rate wave. I'm not sure if it's possible to preserve phase information by using a frequency that isn't _perfectly half_ the sample-rate.
 
