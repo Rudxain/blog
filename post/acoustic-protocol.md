@@ -65,9 +65,48 @@ As I previously mentioned, the protocol must protect the signals against:
 
 Noise is mostly impossible to eliminate, unless the receiver has a [secondary mic in the opposite direction](https://en.m.wikipedia.org/wiki/Active_noise_control). This is standard for phones, but not laptops and desktops.
 
-We can protect against noise in general by adding redundancy (see Hamming Codes and Reed-Solomon).
+We can protect against noise in general by adding redundancy (see Hamming Codes and Reed-Solomon). Another option is dynamic redundancy, which is how TCP works: send repeated packets only if they aren't acknowledged.
 
+> I'll talk about packets in the next section heading
 
+## Streaming
+Multi-band transmission is easy if you just want to send files, as the sizes are known in advance. Fun fact: if you queue the same amount of data for each band, the higher frequencies will end before the lower ones.
+
+This becomes a problem if you want to send streams of unknown length: how do you ensure that all pulse-streams are "aligned" to each other? If they aren't aligned, the bits will arrive out-of-order.
+
+A naive solution is to assign more data to the higher frequencies. But this needs division... how do you handle the remainder?
+
+**Packets to the rescue!**
+
+Network packets allow you to segment data streams into chunks. Each chunk contains some metadata and a payload. Packets also allow you to detect if there's an unexpected disconnect between sender and receiver: if all you hear is background noise, and don't recognize the "shape" of a packet (for hundreds of milliseconds), you can assume that the sender has disconnected for some reason.
+
+> Note: even if we had 1 band, we would need packets anyways, for the aforementioned reasons
+
+Instead of trying to solve the alignment problem for a "continuous" stream of parallel bands, we only need to "solve" it for fixed-size discrete chunks of pulses.
+
+If we're lazy, we don't even have to correct the alignment at all! Each packet can have asymmetric ETAs for each band. Yes, this might be slightly inefficient, because the data that could've been queued to a "fast lane" is now wasting time on a "slow lane".
+
+## App
+I had some ideas for how this protocol could be extended in implementation-specific ways.
+
+For example, if a phone wants to broadcast a file to nearby phones, it can play an inaudible "[magic](https://en.wikipedia.org/wiki/List_of_file_signatures)" pulse sequence (this is the standard part of the protocol) followed by an audible "melodic signature". If any nearby phones are listening, the protocol requires them to "reply" to complete the "handshake".
+
+Notice how the definition is vague. This is how the "melodic signature" is an optional (but fun!) part of the protocol.
+
+Picture this.
+0. You want to send a file to your friends
+1. All of you open the app on their phones
+2. The app is smart enough that you don't have to tell it when to "listen", so only you have to explicitly choose a file.
+3. Your phone plays the **7 iconic notes of Rick Astley's NGGYU** to begin the handshake.
+4. Your friends' phones reply with the "Never gonna let you down!" sequence of notes.
+5. The handshake ends, and the file transfer begins.
+6. _Your friends look at you in disappointment_
+
+[Essentially, the sender is like a singer in a concert, and the receivers are the audience.](https://youtu.be/lkbP5OPQhdQ) (`alt`: Freddy Mercury's "EEEEOH")
+
+I've been thinking that each major app version should support its own set of melodic signatures. That way, all devices can recognize the feature-set that the others support.
+
+## Privacy
 
 ## Trivia
 BTW, did you know that lower frequencies have more unique phases available? Me neither. This makes sense, as higher frequencies can "exhaust" the sampling-rate, reducing the set of possible phases. I actually lied, I've only similulated this in my brain with a low frequency wave and a half-sample-rate wave. I'm not sure if it's possible to preserve phase information by using a frequency that isn't perfectly half the sample-rate.
