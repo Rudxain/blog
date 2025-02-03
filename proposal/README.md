@@ -1,4 +1,5 @@
 - [Reusable contracts](DRY-T&C.md)
+- [Deprecate JS not ES](deprecate-js.md)
 - [æfect](æfect.md)
 - [Nearest continuous permutation](near_permut.md)
 - [Von Neumann Turing Machine](VN-TM.md)
