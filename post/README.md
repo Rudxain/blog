@@ -2,4 +2,5 @@
 - [Me & Collatz](Collatz.md)
 - [Samsung Rants](Samsung-rants.md) ⚠️WARNING: slurs & obscene phrases!
 - [Reply to "WWWorst App Store"](re_twwwas.md)
+- [Don't always be humble](esteem.md)
 - [Dogmas aren't always bad?](dogma_non-sentient.md)
