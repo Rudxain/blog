@@ -1,18 +1,10 @@
 # Samsung rants
 
-> [!WARNING]
-> ⚠️ This contains swear-words and obscene phrases!
-
-> [!note]
-> **DISCLAIMER:**
-> I hate Samsung (the corporation), not the employees.
-> 
-> It's wrong to hate someone just because they work at a crappy place for a living... Unless they do it intentionally, with the purpose of making the world worse.
-
 > [!tip]
-> Please take this humorously, not so seriously.
-> 
-> If you're a S fan, it'll be your fault if you get offended, not mine 🤷‍♂️
+> To learn more about why CrapZong is bad, [go here](https://consumerrights.wiki/Samsung)
+
+> [!WARNING]
+> ⚠️ The following sections contains swear-words and obscene phrases!
 
 ## Intro
 
@@ -29,7 +21,7 @@ This was very annoying, because it constantly consumed CPU for no reason (instea
 
 I was gifted a Galaxy A31, I was disappointed I got yet another Samsung phone (before the J3, I had a Sony Xperia Z5, and before that I got a Galaxy S4).
 But I was very happy that I could finally use Android 12, and even happier because I finally have an **unlockable bootloader!**
-(I was so unlucky that the Z5 was hard-locked, not even the official Sony codes helped me. The J3 was "even-harder-locked" because of Verizon's fault)
+(I was so unlucky that the Z5 was hard-locked, not even the official Sony codes helped me. The J3 was "even-harder-locked" because of [VeryFuck](https://consumerrights.wiki/Verizon)'s fault)
 
 I was doing the same monitoring+tinkering process... when suddenly... **the Game Launcher was running** for no reason. I went to the details, and guess what...
 **IT'S THE FUCKING NOTIFICATION LISTENER AGAIN! AND IT'S ALSO HIDDEN FROM THE NOTIFICATION ACCESS LIST!!!**
