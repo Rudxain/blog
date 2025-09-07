@@ -1,18 +1,10 @@
 # Samsung rants
 
-> [!WARNING]
-> ⚠️ This contains swear-words and obscene phrases!
-
-> [!note]
-> **DISCLAIMER:**
-> I hate Samsung (the corporation), not the employees.
-> 
-> It's wrong to hate someone just because they work at a crappy place for a living... Unless they do it intentionally, with the purpose of making the world worse.
-
 > [!tip]
-> Please take this humorously, not so seriously.
-> 
-> If you're a S fan, it'll be your fault if you get offended, not mine 🤷‍♂️
+> To learn more about why CrapZong is shit, [go here](https://consumerrights.wiki/Samsung)
+
+> [!WARNING]
+> ⚠️ The following sections contains swear-words and obscene phrases!
 
 ## Intro
 
