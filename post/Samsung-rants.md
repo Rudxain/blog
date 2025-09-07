@@ -1,7 +1,7 @@
 # Samsung rants
 
 > [!tip]
-> To learn more about why CrapZong is shit, [go here](https://consumerrights.wiki/Samsung)
+> To learn more about why CrapZong is bad, [go here](https://consumerrights.wiki/Samsung)
 
 > [!WARNING]
 > ⚠️ The following sections contains swear-words and obscene phrases!
