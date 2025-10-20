@@ -23,7 +23,7 @@ The year is almost **2025 and humanity hasn't fixed this simple issue** for deca
 
 ## Inspiration
 The following is a list of resources to which I feel grateful:
-- [Hyper-media](https://en.wikipedia.org/wiki/Hypermedia) has already solved this for arbitrary content (information, misinformation 🤡, raw data, graphics, audio, text, executables, etc...)
+- [Hyper-media](https://en.wikipedia.org/wiki/Hypermedia) has already solved this for arbitrary content (information, misinformation [🤡](https://ncase.me/rss/#how), raw data, graphics, audio, text, executables, etc...)
 - [Nicky Case's "Nutshell"](https://ncase.me/nutshell) extends the concept of hyper-media to be more interactive. But this isn't a [Web Standard](https://en.wikipedia.org/wiki/Web_standards) or a [Web Browser API](https://developer.mozilla.org/en-US/docs/Web/API), yet...
 - [SPDX](https://en.wikipedia.org/wiki/Software_Package_Data_Exchange) has _mostly_ solved this for [OSS](https://en.wikipedia.org/wiki/Open-source_software) licenses. If you want a modified version of a license, you must [inline](https://en.wikipedia.org/wiki/Inline_expansion) the full text anyways... ([square 1](https://en.wiktionary.org/wiki/back_to_square_one)).
 - The [OpenPD](https://openpd.org/) aims to solve this for privacy-policies.
