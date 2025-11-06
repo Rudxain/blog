@@ -55,7 +55,7 @@ Here comes my proposed solution...
 
 An open standard international registry of unique contract identifiers. Each identifier maps (associated) to a complete, clear, unambiguous, legally-sound, document that could be used as-is or as a template for customized docs. Every major (semantically breaking) update must have a different version number, and the previous version must still be available for reference.
 
-To allow custom contracts to specify modifications ([`diff`s](https://en.wikipedia.org/wiki/File_comparison)), a standard diff description format (like Git's) should be used for machine-readable text.
+To allow custom contracts to specify modifications ([`diff`s](https://en.wikipedia.org/wiki/File_comparison)), a standard diff description format (like [Git](https://git-scm.com/)'s) should be used for machine-readable text.
 
 For human readers, something like `Section 3, paragraph 5, sentence 4, is to be replaced with "blah bleh..."` could be used instead, but each one of those "part-numbers" must be rigorously defined by the specification (How exactly do we split sentences?), not the author of the custom-contract. An alternative is to explicitly label each section of the document: this allows automatic [TOC](https://en.wikipedia.org/wiki/Table_of_contents) generation, and is efficiently searchable by software.
 
