@@ -62,4 +62,4 @@ For human readers, something like `Section 3, paragraph 5, sentence 4, is to be 
 ## Outro
 I guess that's it! It really is ["quite simple"](https://youtu.be/7iHGoBVLtyY).
 
-It's worth noting that this won't magically solve the problem of ill-intentioned data-hoarders, which are happily willing to abuse [dark patterns](https://www.deceptive.design/) such as opaque privacy-policies to deter users from protecting their data
+It's worth noting that this won't magically solve the problem of ill-intentioned [data-hoarders](https://consumerrights.wiki/w/Data_brokers), which are happily willing to abuse [dark patterns](https://www.deceptive.design/) such as opaque privacy-policies to deter users from protecting their data
