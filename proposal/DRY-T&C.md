@@ -36,7 +36,7 @@ As a "layperson", you might wonder:
 > "BTW, our terms are the same as Google's, except for this part"
 > Or any sort of summary?
 
-The whole point of "legally-valid" contracts is that there should be no ambiguity (this is why legalese looks like a programming language), as any omitted detail could become a [loop-hole](https://en.wikipedia.org/wiki/Loophole), which is equivalent to a [software vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)). That's the reason why there's so much legalese, because lawyers need to cover **everything** (every possible scenario in the past, present, and future), to protect the org from "abusive users" exploiting the holes.
+The whole point of "legally-valid" contracts is that there should be no ambiguity (this is why legalese [looks like a programming language](https://en.wikipedia.org/w/index.php?title=Engineered_language&oldid=1320378631#Logical_languages)), as any omitted detail could become a [loop-hole](https://en.wikipedia.org/wiki/Loophole), which is equivalent to a [software vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computer_security)). That's the reason why there's so much legalese, because lawyers need to cover **everything** (every possible scenario in the past, present, and future), to protect the org from "abusive users" exploiting the holes.
 
 This goes both ways: A "legal [bug](https://en.wikipedia.org/wiki/Software_bug)" could be so unintentionally strict, that [100% of the target demographic would be forbidden from using the service](https://web.archive.org/web/20241008105526/https://github.com/WinampDesktop/winamp/issues/2656).
 
