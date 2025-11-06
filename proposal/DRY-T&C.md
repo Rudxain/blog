@@ -17,7 +17,7 @@ But I'll outline them anyways, for emphasis:
 - If they aren't verbose/legalese, they tend to be ambiguous
 - They have similar glossaries, sentences, and even full paragraphs, in common with other legal documents of the same kind (sometimes even identical replicas!)
 - It's hard to properly write one, so you either copy-paste a template or hire lawyer
-- Multi-service organizations tend to avoid declaring accurate terms for individual services. Rather, they treat all services as a unit (easier for them), taking away more user rights. Example: Google-Keep doesn't need location data, but G-Maps certainly does, so they [CTA](https://en.wikipedia.org/wiki/Cover_your_ass) by saying "We may collect location data at any time, without notice." (not verbatim quote) rather than "Here's an exhaustive list of services that collect location data..."
+- Multi-service organizations tend to avoid declaring accurate terms for individual services. Rather, [they treat all services as a unit](https://news.ycombinator.com/item?id=37584368) (easier for them), taking away more user rights. Example: Google-Keep doesn't need location data, but G-Maps certainly does, so they [CTA](https://en.wikipedia.org/wiki/Cover_your_ass) by saying "We may collect location data at any time, without notice." (not verbatim quote) rather than "Here's an exhaustive list of services that collect location data..."
 
 The year is almost **2025 and humanity hasn't fixed this simple issue** for decades (**millennia**, if we're being unfair).
 
