@@ -181,7 +181,7 @@ I'm sorry, again, if anyone gets offended, but this implies that WP doesn't care
 ### Me?
 Roasting others is unfair, so here I'll roast myself, for the sake of "redemption".
 
-If you've visited my GH-Pages site, you'll quickly notice that I'm a hypocrite! All of my pages (except for RGB-DR) are either `light` or `dark`, even with JS enabled.
+If you've visited my GH-Pages site, you'll notice that I'm a hypocrite! Some of my pages are either `light` or `dark`, even with JS enabled.
 
 I'd like to [blame Jekyll themes](https://github.com/Rudxain/Rudxain.github.io/issues/9) for this, but this is my mistake, and I have to deal with it.
 
