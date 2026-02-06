@@ -1,4 +1,5 @@
 - [An acoustic network protocol (data-over-sound)](acoustic-protocol.md)
+- [Metal rods and volcanic gorillas](metal-rods-volcanic-gorillas.md), rich world-building based on a deceptively-simple premise
 - [Busy Beaver Hashing concept](Busy_Hash.md)
 - [Me & Collatz](Collatz.md)
 - [Altice rant](altice-rant.md)
