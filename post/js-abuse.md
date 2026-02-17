@@ -226,6 +226,6 @@ I don't want you, dear reader, to feel like a [doomer](https://www.urbandictiona
 	- [YDNJS](https://github.com/you-dont-need/You-Dont-Need-JavaScript)
 	- [1HTML challenge](https://github.com/Metroxe/one-html-page-challenge)
 	- [CSS Zen Garden](https://csszengarden.com)
-- SoundCloud (yes, [that one](https://consumerrights.wiki/w/SoundCloud)!): A few weeks ago, their pages now show _more_ content than before! (in `noscript`). Previously, it was just a generic page telling you to enable JS. I wish I could say they care about `noscript` users, but they don't care about their users in general. I guess they're experimenting with [SSR](https://en.wikipedia.org/wiki/Server-side_rendering) or [pre-rendering](https://vite.dev/guide/ssr#pre-rendering-ssg)
+- SoundCloud (yes, [that one](https://consumerrights.wiki/w/SoundCloud)!): A few weeks ago, their pages now show _more_ content than before! (in `noscript`). Previously, it was just a generic page telling you to enable JS. I guess they're experimenting with [SSR](https://en.wikipedia.org/wiki/Server-side_rendering) or [pre-rendering](https://vite.dev/guide/ssr#pre-rendering-ssg). Update 2026: some features seem like they _intentionally_ work without JS! (for example, switching between Home/Feed and Search pages. Query-submission doesn't work though) I was wrong, they do care about their users!
 - [Deno making dark-mode work in `noscript`](https://github.com/denoland/docs/pull/2709)
 - [ESlint team concerned about accessibility and productivity](https://github.com/eslint/eslint/issues/20279)
