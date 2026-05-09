@@ -1,4 +1,5 @@
 - [An acoustic network protocol (data-over-sound)](acoustic-protocol.md)
+- [Fear of race conditions](fear-race-condition.md)
 - [Metal rods and volcanic gorillas](metal-rods-volcanic-gorillas.md), rich world-building based on a deceptively-simple premise
 - [Busy Beaver Hashing concept](Busy_Hash.md)
 - [Me & Collatz](Collatz.md)
